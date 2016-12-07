@@ -15,11 +15,12 @@ window.onload = function() {
 		document.getElementById("hack-minus").onclick = function () {moveBackHack();};
 		document.getElementById("contact-plus").onclick = function() {moveContact();};
 		document.getElementById("contact-minus").onclick = function () {moveBackContact();};
+	} else if (screenWidth >= 600 && screenWidth <= 899) {
+		console.log("You are on a smaller screen. The width is " + screenWidth);
 	}
 
-	// Begin reveal JS for Meet Section
 
-
+	// Begin reveal JS for large Meet Section
 	function moveMeet() {
 		document.getElementById("post1").style.margin = "5%";
 		document.getElementById("post1").style.float = "left";
@@ -29,9 +30,6 @@ window.onload = function() {
 		document.getElementById("meet-plus").style.visibility = "hidden";
 		document.getElementById("meet-minus").style.visibility = "initial";
 	}
-
-	
-
 	function moveBackMeet() {
 		document.getElementById("meet-info").style.visibility = "hidden";
 		document.getElementById("post1").style.margin = "0 auto";
@@ -40,9 +38,7 @@ window.onload = function() {
 		document.getElementById("meet-minus").style.visibility = "hidden";
 	}
 
-	// Begin reveal JS for Boot Camp Section
-	
-
+	// Begin reveal JS for large Boot Camp Section
 	function moveBoot() {
 		document.getElementById("post2").style.margin = "5%";
 		document.getElementById("post2").style.float = "right";
@@ -52,9 +48,6 @@ window.onload = function() {
 		document.getElementById("boot-plus").style.visibility = "hidden";
 		document.getElementById("boot-minus").style.visibility = "initial";
 	}
-
-	
-
 	function moveBackBoot() {
 		document.getElementById("boot-info").style.visibility = "hidden";
 		document.getElementById("post2").style.margin = "0 auto";
@@ -63,9 +56,7 @@ window.onload = function() {
 		document.getElementById("boot-minus").style.visibility = "hidden";
 	}
 
-	// Begin reveal JS for Clark Section
-	
-
+	// Begin reveal JS for large Clark Section
 	function moveClark() {
 		document.getElementById("post3").style.margin = "5%";
 		document.getElementById("post3").style.float = "left";
@@ -75,9 +66,6 @@ window.onload = function() {
 		document.getElementById("clark-plus").style.visibility = "hidden";
 		document.getElementById("clark-minus").style.visibility = "initial";
 	}
-
-	
-
 	function moveBackClark() {
 		document.getElementById("clark-info").style.visibility = "hidden";
 		document.getElementById("post3").style.margin = "0 auto";
@@ -86,9 +74,7 @@ window.onload = function() {
 		document.getElementById("clark-minus").style.visibility = "hidden";
 	}
 
-	// Begin reveal JS for Hack Section
-	
-
+	// Begin reveal JS for large Hack Section
 	function moveHack() {
 		document.getElementById("post4").style.margin = "5%";
 		document.getElementById("post4").style.float = "right";
@@ -98,9 +84,6 @@ window.onload = function() {
 		document.getElementById("hack-plus").style.visibility = "hidden";
 		document.getElementById("hack-minus").style.visibility = "initial";
 	}
-
-	
-
 	function moveBackHack() {
 		document.getElementById("hack-info").style.visibility = "hidden";
 		document.getElementById("post4").style.margin = "0 auto";
@@ -109,9 +92,7 @@ window.onload = function() {
 		document.getElementById("hack-minus").style.visibility = "hidden";
 	}
 
-	// Begin reveal JS for Contact Section
-	
-
+	// Begin reveal JS for large Contact Section
 	function moveContact() {
 		document.getElementById("post5").style.margin = "5%";
 		document.getElementById("post5").style.float = "left";
@@ -121,9 +102,6 @@ window.onload = function() {
 		document.getElementById("contact-plus").style.visibility = "hidden";
 		document.getElementById("contact-minus").style.visibility = "initial";
 	}
-
-	
-
 	function moveBackContact() {
 		document.getElementById("contact-info").style.visibility = "hidden";
 		document.getElementById("post5").style.margin = "0 auto";
