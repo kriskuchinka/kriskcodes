@@ -15,8 +15,18 @@ window.onload = function() {
 		document.getElementById("hack-minus").onclick = function () {moveBackHack();};
 		document.getElementById("contact-plus").onclick = function() {moveContact();};
 		document.getElementById("contact-minus").onclick = function () {moveBackContact();};
-	} else if (screenWidth >= 600 && screenWidth <= 899) {
+	} else if (screenWidth <= 899) {
 		console.log("You are on a smaller screen. The width is " + screenWidth);
+		document.getElementById("meet-plus").onclick = function() {moveSmallMeet();};
+		document.getElementById("meet-minus").onclick = function() {moveBackSmallMeet();};
+		document.getElementById("boot-plus").onclick = function() {moveSmallBoot();};
+		document.getElementById("boot-minus").onclick = function() {moveBackSmallBoot();};	
+		document.getElementById("clark-plus").onclick = function() {moveSmallClark();};
+		document.getElementById("clark-minus").onclick = function() {moveBackSmallClark();};
+		document.getElementById("hack-plus").onclick = function() {moveSmallHack();};
+		document.getElementById("hack-minus").onclick = function() {moveBackSmallHack();};
+		document.getElementById("contact-plus").onclick = function() {moveSmallContact();};
+		document.getElementById("contact-minus").onclick = function() {moveBackSmallContact();};						
 	}
 
 
@@ -110,4 +120,68 @@ window.onload = function() {
 		document.getElementById("contact-minus").style.visibility = "hidden";
 	}
 
+	// Begin reveal JS for small Meet Section
+	function moveSmallMeet() {
+		document.getElementById("post1").style.margin = "0 auto";
+		document.getElementById("meet-plus").style.visibility = "hidden";
+		document.getElementById("meet-minus").style.visibility = "initial";
+		document.getElementById("meet-info").style.visibility = "initial";
+	}
+	function moveBackSmallMeet() {
+		document.getElementById("meet-plus").style.visibility = "initial";
+		document.getElementById("meet-minus").style.visibility = "hidden";
+		document.getElementById("meet-info").style.visibility = "hidden";
+	}
+
+	// Begin reveal JS for small Boot Section
+	function moveSmallBoot() {
+		document.getElementById("post2").style.margin = "0 auto";
+		document.getElementById("boot-plus").style.visibility = "hidden";
+		document.getElementById("boot-minus").style.visibility = "initial";
+		document.getElementById("boot-info").style.visibility = "initial";
+	}
+	function moveBackSmallBoot() {
+		document.getElementById("boot-plus").style.visibility = "initial";
+		document.getElementById("boot-minus").style.visibility = "hidden";
+		document.getElementById("boot-info").style.visibility = "hidden";
+	}
+
+	// Begin reveal JS for small Boot Section
+	function moveSmallClark() {
+		document.getElementById("post3").style.margin = "0 auto";
+		document.getElementById("clark-plus").style.visibility = "hidden";
+		document.getElementById("clark-minus").style.visibility = "initial";
+		document.getElementById("clark-info").style.visibility = "initial";
+	}
+	function moveBackSmallClark() {
+		document.getElementById("clark-plus").style.visibility = "initial";
+		document.getElementById("clark-minus").style.visibility = "hidden";
+		document.getElementById("clark-info").style.visibility = "hidden";
+	}
+
+	// Begin reveal JS for small Hack Section
+	function moveSmallHack() {
+		document.getElementById("post4").style.margin = "0 auto";
+		document.getElementById("hack-plus").style.visibility = "hidden";
+		document.getElementById("hack-minus").style.visibility = "initial";
+		document.getElementById("hack-info").style.visibility = "initial";
+	}
+	function moveBackSmallHack() {
+		document.getElementById("hack-plus").style.visibility = "initial";
+		document.getElementById("hack-minus").style.visibility = "hidden";
+		document.getElementById("hack-info").style.visibility = "hidden";
+	}
+
+	// Begin reveal JS for small Hack Section
+	function moveSmallContact() {
+		document.getElementById("post5").style.margin = "0 auto";
+		document.getElementById("contact-plus").style.visibility = "hidden";
+		document.getElementById("contact-minus").style.visibility = "initial";
+		document.getElementById("contact-info").style.visibility = "initial";
+	}
+	function moveBackSmallContact() {
+		document.getElementById("contact-plus").style.visibility = "initial";
+		document.getElementById("contact-minus").style.visibility = "hidden";
+		document.getElementById("contact-info").style.visibility = "hidden";
+	}	
 };
