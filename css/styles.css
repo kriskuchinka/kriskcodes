@@ -48,9 +48,8 @@ body {
 	}
 
 	.slide-1 {
-		height: 90%;
-		width: 90%;
-		padding: 5%;
+		height: 700px;
+		padding: 30px;
 	}
 
 	.slide-2 {
@@ -148,7 +147,7 @@ body {
 	}
 } /* end of min-width: 1800px media query */
 
-/*@media (min-width: 1200px) and (max-width: 1799px) {
+@media (min-width: 1200px) and (max-width: 1799px) {
 	.parallax {
 		width: 100%;
 		min-height: 600px;
@@ -283,9 +282,9 @@ body {
 		text-align: center;
 	}		
 
-}*/ /* end of min-width: 1200px media query */
+} /* end of min-width: 1200px media query */
 
-/*@media (min-width: 900px) and (max-width: 1199px) {
+@media (min-width: 900px) and (max-width: 1199px) {
 	.parallax {
 		width: 100%;
 		min-height: 600px;
@@ -422,9 +421,9 @@ body {
 		text-align: center;
 	}
 
-}*/ /* end of min-width: 900px media query */
+} /* end of min-width: 900px media query */
 
-/*@media (min-width: 600px) and (max-width: 899px) {
+@media (min-width: 600px) and (max-width: 899px) {
 .parallax {
 		width: 100%;
 		min-height: 600px;
@@ -558,9 +557,9 @@ body {
 		text-align: center;
 	}
 
-}*/ /* end of min-width: 600px media query */
+} /* end of min-width: 600px media query */
 
-/*@media (min-width: 300px) and (max-width: 599px) {
+@media (min-width: 300px) and (max-width: 599px) {
 	.parallax {
 		width: 100%;
 		min-height: 600px;
@@ -694,10 +693,10 @@ body {
 		text-align: center;
 	}
 
-}*/ /* end of max-width: 599px media query */
+} /* end of max-width: 599px media query */
 
-/*@media (min-width: 1px) and (max-width: 299px) {
+@media (min-width: 1px) and (max-width: 299px) {
 	.parallax-1 {
 		background-image: url("../img/img_a_rsz_299.jpg");
 	}
-}*/
+}
