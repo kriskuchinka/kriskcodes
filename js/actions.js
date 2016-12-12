@@ -32,13 +32,19 @@ window.onload = function() {
 
 	// Begin reveal JS for large Meet Section
 	function moveMeet() {
-		document.getElementById("post1").style.margin = "5%";
-		document.getElementById("post1").style.float = "left";
-		document.getElementById("meet-info").style.margin = "5%";
-		document.getElementById("meet-info").style.float = "right";
+		// document.getElementById("post1").style.margin = "5%";
+		// document.getElementById("post1").style.float = "left";
+		// document.getElementById("meet-info").style.margin = "5%";
+		// document.getElementById("meet-info").style.float = "right";
+		// document.getElementById("meet-info").style.visibility = "initial";
+		// document.getElementById("meet-plus").style.visibility = "hidden";
+		// document.getElementById("meet-minus").style.visibility = "initial";
+
 		document.getElementById("meet-info").style.visibility = "initial";
-		document.getElementById("meet-plus").style.visibility = "hidden";
-		document.getElementById("meet-minus").style.visibility = "initial";
+		document.getElementById("meet-info").style.width = "100%";
+		document.getElementById("meet-info").style.margin = "0 auto";
+		document.getElementById("meet-info").style.backgroundColor = "#ffffff";
+		document.getElementById("post1").style.visibility = "hidden";
 	}
 	function moveBackMeet() {
 		document.getElementById("meet-info").style.visibility = "hidden";
