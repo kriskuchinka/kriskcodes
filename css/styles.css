@@ -17,8 +17,8 @@ p, ul {
 /* Create sticky footer */
 footer {
 	position: relative;
-	margin-top: 150px;
-	margin-bottom: -150px;
+	margin-top: 260px;
+	margin-bottom: -260px;
 	clear:both;
 }
 @media (min-width: 1800px) {
@@ -55,31 +55,8 @@ footer {
 		display: inline-block;
 		background-color: #ffffff;
 		width: 100%;
-	}
-
-	.slide-1 {
-		height: 700px;
-		padding: 30px;
-	}
-
-	.slide-2 {
-		height: 560px;
-		padding: 30px;
-	}
-
-	.slide-3 {
-		height: 920px;
-		padding: 30px;
-	}
-
-	.slide-4 {
-		height: 600px;
-		padding: 30px;
-	}
-
-	.slide-5 {
-		height:350px;
-		padding: 30px;
+		height: 360px;
+		padding: 25px;
 	}
 
 	.slide-head {
@@ -191,31 +168,8 @@ footer {
 		display: inline-block;
 		background-color: #ffffff;
 		width: 100%;
-	}
-
-	.slide-1 {
-		height: 680px;
-		padding: 30px;
-	}
-
-	.slide-2 {
-		height: 480px;
-		padding: 30px;
-	}
-
-	.slide-3 {
-		height: 800px;
-		padding: 30px;
-	}
-
-	.slide-4 {
-		height: 500px;
-		padding: 30px;
-	}
-
-	.slide-5 {
-		height:350px;
-		padding: 30px;
+		height: 360px;
+		padding: 25px;
 	}
 
 	.slide-head {
@@ -328,31 +282,8 @@ footer {
 		display: inline-block;
 		background-color: #ffffff;
 		width: 100%;
-	}
-
-	.slide-1 {
-		height: 540px;
-		padding: 30px;
-	}
-
-	.slide-2 {
 		height: 360px;
-		padding: 30px;
-	}
-
-	.slide-3 {
-		height: 600px;
-		padding: 30px;
-	}
-
-	.slide-4 {
-		height: 440px;
-		padding: 30px;
-	}
-
-	.slide-5 {
-		height:350px;
-		padding: 30px;
+		padding: 25px;
 	}
 
 	.slide-head {
@@ -370,8 +301,8 @@ footer {
 	}
 
 	.post-it-1, .post-it-2, .post-it-3, .post-it-4, .post-it-5{
-		width: 240px;
-		height: 240px;
+		width: 300px;
+		height: 300px;
 		padding: 2px;
 		margin: 0 auto;
 	}
@@ -397,7 +328,7 @@ footer {
 	}
 
 	.meet-text, .boot-text, .clark-text, .hack-text, .contact-text {
-	    width: 50%;
+	    width: 40%;
 	    line-height: 1.2em;
 	    font-size: 1.2em;
 	}
@@ -434,7 +365,7 @@ footer {
 } /* end of min-width: 900px media query */
 
 @media (min-width: 600px) and (max-width: 899px) {
-.parallax {
+	.parallax {
 		width: 100%;
 		min-height: 600px;
 		background-attachment: fixed;
@@ -467,31 +398,8 @@ footer {
 		display: inline-block;
 		background-color: #ffffff;
 		width: 100%;
-	}
-
-	.slide-1 {
-		height: 680px;
-		padding: 30px;
-	}
-
-	.slide-2 {
-		height: 580px;
-		padding: 30px;
-	}
-
-	.slide-3 {
-		height: 800px;
-		padding: 30px;
-	}
-
-	.slide-4 {
-		height: 600px;
-		padding: 30px;
-	}
-
-	.slide-5 {
-		height:400px;
-		padding: 30px;
+		height: 360px;
+		padding: 40px;
 	}
 
 	.slide-head {
@@ -509,8 +417,8 @@ footer {
 	}
 
 	.post-it-1, .post-it-2, .post-it-3, .post-it-4, .post-it-5{
-		width: 240px;
-		height: 240px;
+		width: 300px;
+		height: 300px;
 		padding: 2px;
 		margin: 0 auto;
 	}
@@ -537,9 +445,10 @@ footer {
 
 	.meet-text, .boot-text, .clark-text, .hack-text, .contact-text {
 	    width: 100%;
-	    margin: 0 auto;
 	    line-height: 1.2em;
 	    font-size: 1.2em;
+	    padding: 40px;
+	    padding: 20px;
 	}
 
 	.contact-text ul li {

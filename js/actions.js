@@ -32,16 +32,19 @@ window.onload = function() {
 
 	// Begin reveal JS for large Meet Section
 	function moveMeet() {
+
 		document.getElementById("post1").style.margin = "5%";
 		document.getElementById("post1").style.float = "left";
 		document.getElementById("meet-info").style.margin = "5%";
 		document.getElementById("meet-info").style.float = "right";
 		document.getElementById("meet-info").style.visibility = "initial";
+		document.getElementById("slide-1").style.height = "auto";
 		document.getElementById("meet-plus").style.visibility = "hidden";
 		document.getElementById("meet-minus").style.visibility = "initial";
 	}
 	function moveBackMeet() {
 		document.getElementById("meet-info").style.visibility = "hidden";
+		document.getElementById("slide-1").style.height = "360px";
 		document.getElementById("post1").style.margin = "0 auto";
 		document.getElementById("post1").style.float = "";
 		document.getElementById("meet-plus").style.visibility = "initial";
@@ -55,11 +58,13 @@ window.onload = function() {
 		document.getElementById("boot-info").style.margin = "5%";
 		document.getElementById("boot-info").style.float = "left";
 		document.getElementById("boot-info").style.visibility = "initial";
+		document.getElementById("slide-2").style.height = "auto";
 		document.getElementById("boot-plus").style.visibility = "hidden";
 		document.getElementById("boot-minus").style.visibility = "initial";
 	}
 	function moveBackBoot() {
 		document.getElementById("boot-info").style.visibility = "hidden";
+		document.getElementById("slide-2").style.height = "360px";		
 		document.getElementById("post2").style.margin = "0 auto";
 		document.getElementById("post2").style.float = "";
 		document.getElementById("boot-plus").style.visibility = "initial";
@@ -73,11 +78,13 @@ window.onload = function() {
 		document.getElementById("clark-info").style.margin = "5%";
 		document.getElementById("clark-info").style.float = "right";
 		document.getElementById("clark-info").style.visibility = "initial";
+		document.getElementById("slide-3").style.height = "auto";
 		document.getElementById("clark-plus").style.visibility = "hidden";
 		document.getElementById("clark-minus").style.visibility = "initial";
 	}
 	function moveBackClark() {
 		document.getElementById("clark-info").style.visibility = "hidden";
+		document.getElementById("slide-3").style.height = "360px";
 		document.getElementById("post3").style.margin = "0 auto";
 		document.getElementById("post3").style.float = "";
 		document.getElementById("clark-plus").style.visibility = "initial";
@@ -91,11 +98,13 @@ window.onload = function() {
 		document.getElementById("hack-info").style.margin = "5%";
 		document.getElementById("hack-info").style.float = "left";
 		document.getElementById("hack-info").style.visibility = "initial";
+		document.getElementById("slide-4").style.height = "auto";
 		document.getElementById("hack-plus").style.visibility = "hidden";
 		document.getElementById("hack-minus").style.visibility = "initial";
 	}
 	function moveBackHack() {
 		document.getElementById("hack-info").style.visibility = "hidden";
+		document.getElementById("slide-4").style.height = "360px";
 		document.getElementById("post4").style.margin = "0 auto";
 		document.getElementById("post4").style.float = "";
 		document.getElementById("hack-plus").style.visibility = "initial";
@@ -109,15 +118,18 @@ window.onload = function() {
 		document.getElementById("contact-info").style.margin = "5%";
 		document.getElementById("contact-info").style.float = "right";
 		document.getElementById("contact-info").style.visibility = "initial";
+		document.getElementById("slide-5").style.height = "auto";
 		document.getElementById("contact-plus").style.visibility = "hidden";
 		document.getElementById("contact-minus").style.visibility = "initial";
 	}
 	function moveBackContact() {
 		document.getElementById("contact-info").style.visibility = "hidden";
+		document.getElementById("slide-5").style.height = "360px";
 		document.getElementById("post5").style.margin = "0 auto";
 		document.getElementById("post5").style.float = "";
 		document.getElementById("contact-plus").style.visibility = "initial";
 		document.getElementById("contact-minus").style.visibility = "hidden";
+		document.getElementsByTagName("footer").style.marginBottom = "-150px";
 	}
 
 	// Begin reveal JS for small Meet Section
